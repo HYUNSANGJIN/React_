@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+React?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 유튜브, 책을 통해 공부중
 
-## Available Scripts
+- 프론트엔드 UI를 만들기 위한 자바스크립트 라이브러리
 
-In the project directory, you can run:
+- js기반, 사용자 인터페이스를 만들기 위한 라이브러리
 
-### `yarn start`
+- node.js : 크롬 v8 자바스크립트 엔진으로 빌드된 js 런타임(프로그래밍 언어가 구동되는 환경 -> 웹 환경, 그러니까 브라우저가 아니더라도 js를 사용할 수 있음. react와는 직접적인 연관이 없으나 프로젝트를 개발하는데 필요한 도구들이 node.js를 사용하기 때문에 같이 설치함)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- npm : node.js 패키지 매니저 -> 개발자가 만든 모듈(리액트 같은 것)을 설치하고 버전관리 하는 툴
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- yarn : npm과 마찬가지로 패키지 관리 및 설치하는 툴. npm보다 가볍고 버전 의존성이 낮다
 
-### `yarn test`
+- create-react-app : 프로젝트 핵심 기능들의 설정을 미리 완료하고 react 프로젝트를 만들 수 있는 명령어
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- fs : node.js 내장 모듈 중 파일을 읽고 쓸 때 사용
 
-### `yarn build`
+- webpack : 번들링 도구, 파일을 묶듯이 연결하는 것
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- JSX : 자바스크립트 확장 문법, render() { ... } 이 부분을 뜻함, 리액트 용으로 공식 js 문법은 아님, 보기 쉽고 익숙하다 (js를 써 봤다면), 오류검사를 '바벨'스크립트가 해줌, span/div 등 익숙한 문법을 사용함,
